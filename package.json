@@ -1,0 +1,35 @@
+{
+  "name": "fuenteovejunafinderapi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0",
+    "pre-commit": "^1.2.2"
+  },
+  "scripts": {
+    "test": "",
+    "start": "NODE_ENV='production' node index.js",
+    "dev": "NODE_ENV='development' node index.js",
+    "linter": "eslint ./"
+  },
+  "pre-commit": [
+    "test",
+    "linter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frikiman34/FuenteovejunaFinderApi.git"
+  },
+  "author": "frikiman34, ivanchi88",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/frikiman34/FuenteovejunaFinderApi/issues"
+  },
+  "homepage": "https://github.com/frikiman34/FuenteovejunaFinderApi#readme"
+}
