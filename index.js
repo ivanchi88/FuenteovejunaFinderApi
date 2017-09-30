@@ -7,7 +7,7 @@ app.get('/', (req, res) => res.send('hello!'));
 
 app.listen(8000, (err) => {
   if(err) {
-    console.error('there was an error while creating the server');
+    console.error('There was an error while creating the server');
     process.exit(1);
   }
   console.log('Listening on 8000');

@@ -10,13 +10,16 @@
     "eslint": "^4.8.0",
     "eslint-config-airbnb-base": "^12.0.1",
     "eslint-plugin-import": "^2.7.0",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "precommit-hook": "^3.0.0"
   },
   "scripts": {
     "test": "",
     "start": "NODE_ENV='production' node index.js",
     "dev": "NODE_ENV='development' node index.js",
-    "linter": "eslint ./"
+    "linter": "eslint .",
+    "lint": "jshint .",
+    "validate": "npm ls"
   },
   "pre-commit": [
     "test",
